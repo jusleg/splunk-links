@@ -1,0 +1,32 @@
+
+body {
+  width: 300px;
+}
+
+span.green {
+  color: green;
+}
+
+span.red {
+  color: red;
+}
+
+footer {
+  border-top: none;
+}
+
+fieldset {
+  margin-inline-start: 8px;
+  margin-inline-end: 8px;
+}
+
+input {
+  width: 100%;
+  margin: auto auto!important;
+}
+
+textarea { resize: vertical; }
+
+#key-mapping {
+  font-family: 'Courier New', Courier, monospace;
+}

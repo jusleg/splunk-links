@@ -1,0 +1,27 @@
+<html>
+<head>
+<meta charset='UTF-8' />
+<link rel="stylesheet" href="stylesheets/mini.css">
+<link rel="stylesheet" href="stylesheets/style.css">
+<script src="jquery-3.5.1.min.js"></script>
+<script src=storage.js></script>
+</head>
+<body>
+  <h3>Splunk <span class="green">Links</span> <span class="icon-link"></span></h2>
+  <fieldset>
+    <legend>Splunk configurations</legend>
+    <label for="splunk-url">Splunk url regex</label>
+    <input type="text" id="splunk-url" placeholder="https://splunk.com"/>
+  </fieldset>
+  <fieldset>
+    <legend>Link extraction (JSON)</legend>
+    <div class="col-sm-12 col-md"><textarea id="key-mapping" rows="4" style="width:100%;" placeholder="{
+  &quot;host&quot;: &quot;https://{key}&quot;
+}"></textarea></div>
+  </fieldset>
+  <button class="primary" id="big-save-button">Save</button>
+  <footer>
+    <small>Made with <span class="red">♥️</span> by <a href="https://justinleger.ca">Justin Leger</a></small>
+  </footer>
+</body>
+</html>
